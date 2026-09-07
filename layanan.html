@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan | MyPortfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #0f172a;
+            color: white;
+        }
+
+        nav {
+            background: #1e293b;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h2 {
+            color: #38bdf8;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 70px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container h1 {
+            color: #38bdf8;
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .container > p {
+            color: #cbd5e1;
+            margin-bottom: 40px;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 35px 25px;
+            border-radius: 12px;
+            border: 1px solid #334155;
+        }
+
+        .card h2 {
+            margin-bottom: 15px;
+            color: #38bdf8;
+        }
+
+        .card p {
+            color: #cbd5e1;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .services {
+                grid-template-columns: 1fr;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h2>MyPortfolio</h2>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="layanan.html">Layanan</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="container">
+
+        <h1>Layanan Saya</h1>
+
+        <p>
+            Beberapa layanan yang berkaitan dengan Web Development.
+        </p>
+
+        <div class="services">
+
+            <div class="card">
+                <h2>🌐 Website</h2>
+                <p>
+                    Membuat website sederhana, modern,
+                    dan responsif menggunakan HTML dan CSS.
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>🎨 Web Design</h2>
+                <p>
+                    Membuat tampilan website yang menarik,
+                    rapi, dan mudah digunakan.
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>💻 Development</h2>
+                <p>
+                    Mengembangkan website menggunakan
+                    HTML, CSS, JavaScript, dan teknologi web lainnya.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
+baru pertama kali memakai vs code
+
